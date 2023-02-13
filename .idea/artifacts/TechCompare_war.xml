@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="TechCompare:war">
+    <output-path>$PROJECT_DIR$/TechCompare/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>TechCompare</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="TechCompare-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="TechCompare:war exploded" />
+    </root>
+  </artifact>
+</component>
